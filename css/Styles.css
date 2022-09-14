@@ -1,415 +1,37 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/*----------------------------------------------------GRIDS----------------------------------------------------*/
-.contenedorA{
-    display: grid;
-    grid-template-rows: 75px 470px 120px 580px 165px ;
-    grid-template-areas: 
-    "titulo"
-    "carrousel"
-    "menu"
-    "texto"
-    "footer"
-    ;
-    
-}
-.t1{
-    grid-area: titulo;
-}
-
-.carrousel{
-    grid-area: carrousel;
-}
-.menu{
-    grid-area: menu;
-}
-.p1{
-    grid-area: texto;
-}
-
-
-.footer{
-    grid-area: footer;
-}
-.contenedorSR{
-    display: grid;
-    grid-template-rows: 75px 485px 120px 1500px 165px ;
-    grid-template-areas: 
-    "titulo"
-    "carrousel"
-    "menu"
-    "texto"
-    "footer"
-    ;
-}
-
-
-.contenedorST{
-    display: grid;
-    grid-template-rows: 75px 485px 120px 1355px 165px ;
-    grid-template-areas: 
-    "titulo"
-    "carrousel"
-    "menu"
-    "texto"
-    "footer"
-    ;
-    
-}
-.contenedorMN{
-    display: grid;
-    grid-template-rows: 75px 485px 120px 700px 165px ;
-    grid-template-areas: 
-    "titulo"
-    "carrousel"
-    "menu"
-    "texto"
-    "footer"
-    ;
-}
-.contenedorAR{
-    display: grid;
-    grid-template-rows: 75px 500px 120px 1200px 165px ;
-    grid-template-areas: 
-    "titulo"
-    "carrousel"
-    "menu"
-    "imagenes"
-    "footer"
-    ;
-}
-.art{
-    grid-area: imagenes;
-}
-.footerA{
-    grid-area: footer;
-}
-.contenedorD{
-    display: grid;
-    grid-template-rows:  75px 500px 100px 1050px 165px ;
-    grid-template-areas: 
-    "titulo"
-    "carrousel"
-    "menu"
-    "texto"
-    "footer"
-    ;
-}
-/*----------------------------------------------------GRIDS----------------------------------------------------*/
-/*--------------------------------------------------Responsive-------------------------------------------------*/
-@media screen and (max-width: 768px){
- /*---------------------------------------------------------INICIO-----------------------------------------------*/
-
-    .contenedorA{
-        grid-template-rows: 75px 470px 120px 580px 165px;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer"
-        ;
-    }
-         /*---------------------------------------------------------INICIO-----------------------------------------------*/
-         /*---------------------------------------------------------SUNRISE----------------------------------------------*/
-
-    .contenedorSR{
-        display: grid;
-        grid-template-rows: 75px 470px 120px 2150px 165px ;
-        grid-template-columns: 768px;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto" 
-        "footer"
-        ;
-        
-    }
-    .footer{
-        margin-left: 8%;
-        max-width: 768px;
-        height: auto;
-    }
-    .img3{
-        max-width: 768px;
+header{
+    padding-bottom: 75px;
 
     }
-      /*---------------------------------------------------------SUNRISE-----------------------------------------------*/
-      /*---------------------------------------------------------SUNSET-----------------------------------------------*/
-
-    
-    .contenedorST{
-        display: grid;
-        grid-template-rows: 75px 470px 120px 1850px 165px ;
-        grid-template-columns: 768px;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer"
-        ;
-        
-    }
-    .p2{
-        font-size: 16px;
-        width: 90%;
-    }
-    
-          /*---------------------------------------------------------SUNSET-----------------------------------------------*/
-          /*---------------------------------------------------------MIDNIGHT-----------------------------------------------*/
-
-    .contenedorMN{
-        display: grid;
-        grid-template-rows: 75px 470px 120px 800px 165px ;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer"
-        ;
-        
-    }
-    .p3{
-        font-size: 16px;
-        width: 72%;
-    }
-    .img4{
-        width: 100%;
-        height: auto;
-}
-.footer{
-    width: 85%;
-}
-          /*---------------------------------------------------------MIDNIGHT-----------------------------------------------*/
-
-          /*---------------------------------------------------------DIRECTOR-----------------------------------------------*/
-
-.contenedorD{
-              display: grid;
-              grid-template-rows: 75px 470px 120px 1250px 165px ;
-              grid-template-areas: 
-              "titulo"
-              "carrousel"
-              "menu"
-              "texto"
-              "footer"
-                    ;
-          }
-        /*---------------------------------------------------------DIRECTOR-----------------------------------------------*/
-
-}
-
-@media screen and (max-width: 375px){
-     /*---------------------------------------------------------INICIO-----------------------------------------------*/
-    .contenedorA{
-        grid-template-rows: 75px 470px 120px 2000px 165px;
-        grid-template-areas:
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer" ;
-        
-    }
-    .titulo{
+    nav{
         display: flex;
-        justify-items: start;
-    }
-    .carrousel{
-        width: 400px;
-        height: 250px;
-    }
-    .menu{
-      font-size: 5px;
-    }
-    .p1{
-           width: 85%;
-    }
-    .footer{
-        margin: 5px 10px 5px 5px;
-        width: 77%;
-    }
-    /*---------------------------------------------------------INICIO-----------------------------------------------*/
-        /*----------------------------------------------------SUNRISE-----------------------------------------------*/
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+       
+        justify-content: space-between;
+        list-style-type: none;
 
-    .contenedorSR{
-        display: grid;
-        grid-template-rows: 75px 470px 120px 2600px 165px ;
-        grid-template-columns: 375px;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer"
-        ;
-    }
-    .p3{
-        width:  360px;
-    }
-    .menu{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    
-    .img1{
-        max-width: 370px;
-        height: auto;
-    }
-    .img4{
-        max-width: 330px;
-        margin-right: 200px;
-        margin-left: 0px;
-
-        height: 200px;
-    }
-    .footer{
-        width: 365px;
-        height: auto;
-    }
-    /*---------------------------------------------------------SUNRISE-----------------------------------------------*/
-    /*--------------------------------------------------------SUNSET--------------------------------------------------*/
-
-    .contenedorST{
-        display: grid;
-        grid-template-rows: 75px 470px 120px 3000px 165px ;
-        grid-template-columns: 385px;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer"
-        ;
         
     }
-       .img2{
-        max-width: 365px;
-        height: 200px;
-       }
-       .img3{
-        max-width: 375px;
-       }
-        .p2{
-         font-size: 16px;
-         width: 90%;
-    }
-    
-    /*------------------------------------------------------SUNSET-----------------------------------------------*/
-    /*-----------------------------------------------------MIDNIGHT-----------------------------------------------*/
-
-        .contenedorMN{
-            display: grid;
-            grid-template-rows: 75px 485px 120px 800px 165px ;
-            grid-template-areas: 
-            "titulo"
-            "carrousel"
-            "menu"
-            "texto"
-            "footer"
-            ;
-        }
-    /*-----------------------------------------------------MIDNIGHT-----------------------------------------------*/
-
-    /*---------------------------------------------------------DIRECTOR-----------------------------------------------*/
-    .contenedorD{
-        display: grid;
-        grid-template-rows: 75px 485px 120px 1800px 165px ;
-        grid-template-areas: 
-        "titulo"
-        "carrousel"
-        "menu"
-        "texto"
-        "footer"
-        ;
+    nav a {
+        text-decoration: none;
+        font-family: 'Aboreto', cursive;
+        font-family: 'Teko', sans-serif;
+        text-align: center;
+        font-size: 30px;
         
     }
-    .p6{
-        width: 85%;
-    }
-    
 
-}
 
-/*--------------------------------------------------Responsive-------------------------------------------------*/
 
 
 
 /*---------------------------------------------------Carrousel-------------------------------------------------*/
-
 .carrousel{
-    width: 100%;
-    height: 450px;
-}
-
-.conteCarrousel{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.itemCarrousel{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.itemCarrouselTarjeta{
-    width: 100%;
-    height: 100%;
-}
-
-.itemCarrouselArrows{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px; 
-}
-
-
-
-#itemCarrousel-1{
-    background-color: rgb(226, 50, 50);
-}
-
-#itemCarrousel-2{
-    background-color: rgb(50, 200, 226);
-}
-
-#itemCarrousel-3{
-    background-color: rgb(200, 226, 50);
-}
-
-.conteCarrouselController{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.conteCarrouselController > a{
-    text-decoration: none;
-    font-size: 2em;
-    color: grey;
-}
-
-.itemCarrouselArrows > a > i{
-    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 /*---------------------------------------------------Carrousel-------------------------------------------------*/
 
@@ -493,23 +115,46 @@
     color: #275459;
 }
 .p1{
-    
+    font-family: 'Aboreto', cursive;
+    font-family: 'Teko', sans-serif;
     color: wheat;
     margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
 }
 .p2{
     color: white;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .p3{
     color: #011126;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .p5{
     color: #8C1F28;
     font-size: 50px;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Teko', sans-serif;
+    margin-left: 5px;
+    margin-right: 5px;
+    
 }
 .p6{
     color: #032c50;
-
+    font-family: 'Aboreto', cursive;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
 }
 /*-------------------------------------------------Tipografias-------------------------------------------------*/
 /*-------------------------------------------------Paginas-----------------------------------------------------*/
@@ -539,23 +184,9 @@
 /*-------------------------------------------------Paginas-----------------------------------------------------*/
 /*---------------------------------------------------Menu------------------------------------------------------*/
 
-.menu{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-    margin: 25px 25px 10px 25px;
-    list-style-type:none
 
-}
 
-a{
-    text-decoration: none;
-    font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    font-size: 30px;
 
-} 
 
 
 /*---------------------------------------------------Menu------------------------------------------------------*/
@@ -570,33 +201,8 @@ p{
 
 /*---------------------------------------------------IMG-------------------------------------------------------*/
 
-.img2{
-    margin-left: 10px; 
-    width: 450px;
-    
-}
-.img3{
-  margin-left: 25%;
-}
-.img4{
-    width: 730px;
-    height: 370px;
-    padding-top: 10px;
-    margin-left: 20px;
-    margin-right: 250px;
 
-    
-}
-.img5{
-        margin-left: 23%;
-        padding-top: 5px;
-    padding-bottom: 10px;
-    
-    width: 50%;
-    height: 370px;
-    
-    
-}
+
 .art{
     display: flex;
     flex-direction: column;
@@ -605,6 +211,7 @@ p{
     width: 200px;
     height: 100px;
     padding-top: 40px;
+    padding-bottom: 200px;
     margin-right: auto;
 }
 /*---------------------------------------------------IMG-------------------------------------------------------*/

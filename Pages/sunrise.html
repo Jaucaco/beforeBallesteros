@@ -11,88 +11,63 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Teko:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
 
 </head>
-<body class="contenedorSR" id="sunrise">
-    <main class="animate__animated animate__fadeInLeft">
+<body id="sunrise">
+    <header class="animate__animated animate__fadeInLeft">
         <h1 class="t2">Before Sunrise</h1>
-    </main>
-    <section>
-        <div class="carrousel">
+    </header>
 
-        <div class="conteCarrousel">
-
-            <div class="itemCarrousel" id="itemCarrousel-1">
-
-                <div class="itemCarrouselTarjeta">
-                    <img src="../images/1.png" alt="" width="100%" height="100%">
-                </div>
-                <div class="itemCarrouselArrows">
-                    <a href="#itemCarrousel-3">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a href="#itemCarrousel-2">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="itemCarrousel" id="itemCarrousel-2">
-
-                <div class="itemCarrouselTarjeta">
-                    <img src="../images/2.png" alt="" height="100%" width="100%">
-                </div>
-                <div class="itemCarrouselArrows">
-
-                    <a href="#itemCarrousel-1">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a href="#itemCarrousel-3">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="itemCarrousel" id="itemCarrousel-3">
-
-                <div class="itemCarrouselTarjeta">
-                    <img src="../images/3.png" alt="" height="100%" width="100%">
-                </div>
-
-                <div class="itemCarrouselArrows">
-                    <a href="#itemCarrousel-2">
-                        <i class="fas fa-chevron-left"></i>
-                    </a>
-                    <a href="#itemCarrousel-1">
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-            
-        </div>
        
-        <div class="conteCarrouselController">
-            <a href="#itemCarrousel-1"  style="color:#011126 ;">•</a>
-            <a href="#itemCarrousel-2" style="color:#011126 ;">•</a>
-            <a href="#itemCarrousel-3" style="color: #011126;">•</a>
-            
+    <section class="carrousel">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../images/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../images/3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     </section>
 
  </section>
     <section >
         <nav >
-        <ul class="menu">
-            <li><a href="../index.html" style="color:#011126;">Inicio</a></li>
-        <li><a href="../Pages/sunrise.html" style="color: #011126;">Sunrise</a> </li>
-        <li><a href="../Pages/sunset.html" style="color: #011126; ">Sunset</a> </li>
-        <li><a href="../pages/Midnight.html" style="color: #011126;">Midnight</a> </li>
-        <li><a href="../pages/arte.html" style="color: #011126;">Arte</a> </li>
-        <li><a href="../pages/director.html" style="color: #011126;">Director</a> </li>
-        </ul>
+      
+        <a href="../index.html" style="color:#011126;">Inicio</a>
+      
+     <a href="../Pages/sunset.html" style="color: #011126; ">Sunset</a>  
+     <a href="../pages/Midnight.html" style="color: #011126;">Midnight</a>  
+     <a href="../pages/arte.html" style="color: #011126;">Arte</a>  
+     <a href="../pages/director.html" style="color: #011126;">Director</a>  
+        
       </nav></section>
       <section class="animate__animated animate__slideInLeft"> 
 
-        <section class="p3">
+       
         <h2>La Aventura de lo Desconocido </h2>
+         <section class="p3">
         <p>
 
             <p>Jesse y Celine se conocen por casualidad, ninguno de los dos debería estar en ese tren. Él debería estar disfrutando del verano con su novia, en lugar de ello su corazón está roto y viaja por Europa a la espera de que su avión despegue rumbo a casa. Celine, por su parte, podría llegar a París en menos horas tomando el medio de transporte más lógico, el avión, pero su miedo a volar la conduce directamente a los brazos de un desconocido americano.</p>
@@ -104,7 +79,7 @@
 
                     <p>   Ese tira y afloja entre creer y no creer es lo que define Antes del amanecer: por momentos se posiciona en un lugar que no cree en el amor eterno, ni la fidelidad ni los sueños, para al instante siguiente creer a ciencia cierta en las habladurías de una adivina.</p>
             
-              <img class="img1" src="../images/captura-de-pantalla-2019-07-02-14.00.10.png" alt="" height="400x">
+              <img src="../images/captura-de-pantalla-2019-07-02-14.00.10.png" >
               <p>  La grandeza de Linklater y Krizan es hacernos creer en un amor realista pero que se empapa, cual galleta en café, de las más extremas creencias románticas. Jesse y Celine encierran en cada uno de ellos a unos soñadores que solamente dejan salir a flote cuando realmente se sienten cómodos, cuando se deshacen de esa fachada que el ser humano se ha visto obligado a llevar más y más con el paso del tiempo. Las relaciones personales se complican cuanto más avanzado es el mundo, de hecho ya podemos observar el contraste entre el filme, 1995, y la actualidad. En 1995 era posible perderse y no tener cada instante de los viajes planificados, había de preguntar para concretar planes y recabar información; hoy en día todo puede hacerse de modo informatizado, resulta mucho más complejo y extraño el intentar improvisar, sucediendo lo mismo con las relaciones amorosas, al instante ya puedes saber cuáles son las aficiones, compañías e incluso ex parejas de alguien que acabas de conocer gracias a las nuevas tecnologías, el misterio es algo pasado de moda pero que quizás habría de volver. </p>
             
                 <p>   El tema que sobrevuela durante la totalidad del encuentro entre Jesse y Celine es el sexo, pero siempre quedando enmascarado por otras circunstancias. Finalmente, queda como algo secundario, la única escena en la que pueden o no pueden hacerlo es la única que no se ve de todos los momentos que comparten. Si nunca hubiera habido secuelas, no habríamos sabido si lo hacen o no, porque eso no es lo importante, lo realmente relevante es el conocer a una persona y poder enamorarte, no vamos a llamarlo a primera vista, pero el ser capaz de abrirte y descubrir todos tus secretos, hasta aquellos más vergonzantes.</p>
@@ -116,7 +91,7 @@
                             <p>  La diferencia la marca la predisposición de los protagonistas por ahondar tanto en su psique como en la de su compañero de aventura, hecho que en una sociedad cada vez más deshumanizada se da con poca frecuencia. Lo que se conoce como mojarse o implicarse tanto emocional como mentalmente es un hecho cada vez más difícil en unos días de tremenda superficialidad. Si algo no son Jesse y Celine, es superfluos, tienen opinión formada sobre todos los temas y si no están dispuestos a utilizar la mayéutica para enriquecerse. La palabra es el arma de Linklater y sus guerreros tienen un léxico rico y una mente aguzada que les convierte en maestros en las artes de la tertulia.</p>
             
                                 <p>  Un paseo sin nada más se torna en una disertación sobre el ser humano que solamente causará aburrimiento o indiferencia en aquellos que para ello se esfuercen o a los que su inteligencia no les permita dilucidar las palabras vertidas en el filme, ni tan siquiera los potentes silencios que golpean como caballos desbocados a aquel que ose ponerse en pie frente a ellos.</p>
-            <img class="img4" src="../images/before-sunrise.webp" ></p>
+            <img  src="../images/before-sunrise.png" ></p>
         
      </section>
       </section>
@@ -126,6 +101,7 @@
         <h2 style="color: #011126;">Nuestra Playlist</h2>
         <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/063O4PtB5mLFmLgeew2Fde?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </footer>
-    
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 </html>
