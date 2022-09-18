@@ -1,5 +1,6 @@
 header{
     padding-bottom: 75px;
+    font-family: 'Aboreto', cursive;
 
     }
     nav{
@@ -18,7 +19,7 @@ header{
     nav a {
         text-decoration: none;
         font-family: 'Aboreto', cursive;
-        font-family: 'Teko', sans-serif;
+        
         text-align: center;
         font-size: 30px;
         
