@@ -205,15 +205,13 @@ p{
 
 
 .art{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    
   
     width: 200px;
     height: 100px;
     padding-top: 40px;
     padding-bottom: 200px;
-    margin-right: auto;
+    margin-left: 20px;
 }
 /*---------------------------------------------------IMG-------------------------------------------------------*/
 
