@@ -46,7 +46,7 @@ header{
     
     
     font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+   
     color: wheat;
     text-align: center;
     font-size: 50px;
@@ -59,7 +59,7 @@ header{
     background-color: #d6dbf3;
 
     font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    
     text-align: center;
     color: #011126;
     font-size: 50px;
@@ -72,7 +72,7 @@ header{
     background-color: #92684F;
 
     font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    
     text-align: center;
     font-size: 50px;
     color: whitesmoke;
@@ -86,7 +86,7 @@ header{
 
 
     font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+   
     text-align: center;
     font-size: 50px;
     
@@ -98,7 +98,7 @@ header{
     background-color: #044040;
 
     font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    
     text-align: center;
     font-size: 50px;
     color: #8C1F28;
@@ -110,49 +110,48 @@ header{
     background-color: #D6D97E;
 
     font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    
     text-align: center;
     font-size: 50px;
     color: #275459;
 }
 .p1{
-    font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
     color: wheat;
-    padding-top: 10px;
+    padding-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
     font-size: 25px;
 }
 .p2{
     color: white;
-    font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
     font-size: 25px;
+    padding-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
 }
 .p3{
     color: #011126;
-    font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
     font-size: 25px;
+    padding-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
 }
 .p5{
     color: #8C1F28;
     font-size: 50px;
-    font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
+    padding-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
     
 }
 .p6{
     color: #032c50;
-    font-family: 'Aboreto', cursive;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Edu QLD Beginner', cursive;
+    padding-top: 15px;
     font-size: 25px;
     margin-left: 5px;
     margin-right: 5px;
