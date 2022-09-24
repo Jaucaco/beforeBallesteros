@@ -1,0 +1,72 @@
+.rl{
+    background-color:#D6D97E;
+
+
+    header{
+        padding-bottom: 75px;
+        font-family: 'Aboreto', cursive;
+    nav{
+            display: flex;
+            flex-direction: row;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+           
+            justify-content: space-between;
+            list-style-type: none;
+            .t1{
+                font-size: 25px; 
+                color: #011126;
+                font-family: 'Aboreto', cursive;
+            }
+    
+            & a {
+            text-decoration: none;
+            font-family: 'Aboreto', cursive;
+            
+            text-align: center;
+            font-size: 30px;
+    
+        }
+        }
+        }
+        .carrousel{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .p6{
+            color: #032c50;
+            font-family: 'Edu QLD Beginner', cursive;
+            padding-top: 15px;
+            font-size: 25px;
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-bottom: 10px;
+            .img1{
+                padding-bottom: 10px;
+                padding-top: 5px;
+               
+       }
+        }
+       
+       
+        .footer
+    {
+       
+        font-family: 'Aboreto', cursive;
+        font-family: 'Teko', sans-serif;
+        color: #011126;
+        background-color: wheat;
+        border-top: solid 10px  #021f46;
+        border-right: solid 10px #021f46;
+        border-left:solid 10px #021f46;
+        border-bottom: solid 10px #021f46;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: inherit;
+    }
+
+
+
+}
