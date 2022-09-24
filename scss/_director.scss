@@ -2,10 +2,10 @@
     background-color:#D6D97E;
 
 
-    header{
+    & header{
         padding-bottom: 75px;
         font-family: 'Aboreto', cursive;
-    nav{
+    & nav{
             display: flex;
             flex-direction: row;
             padding-top: 30px;
@@ -15,7 +15,7 @@
            
             justify-content: space-between;
             list-style-type: none;
-            .t1{
+            & .t1{
                 font-size: 25px; 
                 color: #011126;
                 font-family: 'Aboreto', cursive;
