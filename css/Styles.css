@@ -108,7 +108,7 @@ header{
     
 }
 .p6{
-    color: #032c50;
+    color: #0D0D0D;
     font-family: 'Edu QLD Beginner', cursive;
     padding-top: 15px;
     font-size: 25px;
@@ -128,7 +128,7 @@ header{
 }
 
 .sunset{
-    background-color: #92684F;
+    background-color: #D9B88F;
 }
 
 .midnight{
@@ -140,7 +140,7 @@ header{
 }
 
 .rl{
-    background-color:#D6D97E;
+    background-color:#CEE4F2;
 }
 /*-------------------------------------------------Paginas-----------------------------------------------------*/
 
@@ -159,20 +159,17 @@ p{
     margin: 10px 10px 10px 10px;
 }
 
+
 .art{
     
   
    border: 0px;
     padding-top: 90px;
     padding-bottom: 70px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
-.img1{
-         padding-bottom: 10px;
-         padding-top: 5px;
-        
-}
+
 /*---------------------------------------------------Media-------------------------------------------------------*/
 
 

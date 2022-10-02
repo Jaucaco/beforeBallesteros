@@ -1,3 +1,27 @@
+/*mapas*/
+.arte--sunrise {
+  background-color: #d6dbf3; }
+
+.arte--sunset {
+  background-color: #D9B88F; }
+
+.arte--midnight {
+  background-color: #F2A663; }
+
+/*Map get*/
+.mapanav, .rl {
+  background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+  font-family: italic; }
+
+/*Extend*/
+.rl {
+  font-family: 'Aboreto', cursive; }
+
+/*Mixin*/
+.footer {
+  width: 50%;
+  position: 200px; }
+
 .before {
   background-color: #011126; }
   .before header {
@@ -89,7 +113,7 @@
     position: inherit; }
 
 .sunset {
-  background-color: #92684F; }
+  background-color: #D9B88F; }
   .sunset header {
     padding-bottom: 75px;
     font-family: 'Aboreto', cursive; }
@@ -213,8 +237,8 @@
     border: 0px;
     padding-top: 90px;
     padding-bottom: 70px;
-    margin-right: 10px;
-    margin-left: 10px; }
+    margin-right: 15px;
+    margin-left: 15px; }
   .arte .t5 {
     position: fixed;
     left: 0px;

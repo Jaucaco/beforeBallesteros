@@ -1,0 +1,62 @@
+
+$aniversario: normie;
+.before{
+
+@if $aniversario == sunrise {
+    background-image: linear-gradient(to top, #8498bf, #84adc6, #96c0c7, #b3d0ca, #d2ded5, #d4decf, #daddc8, #e3dbc2, #dec7a0, #dcb282, #dc9a68, #dd8055);
+} /* 13 de abril*/
+   
+ @else if $aniversario == sunset{
+           background-image: linear-gradient(to top, #d9b88f, #d6c7a1, #d5d5b6, #d9e1cc, #e2ece1, #e0ecde, #ddedda, #dbedd7, #d4e1b6, #d8d194, #e4bd77, #f2a663);
+ }/*21 de octubre*/
+
+ @else if $aniversario == midnight {
+    background-image: linear-gradient(to top, #f2955e, #dfb46a, #cccd8a, #c3e1b3, #caf0db, #cbf1dc, #cbf2de, #ccf3df, #c5e6bb, #cdd695, #dec074, #f2a663);
+ /*27 de junio*/} 
+};
+
+/*mapas*/
+
+$nav: (
+     sunrise: #d6dbf3,
+     sunset:#D9B88F,
+     midnight:#F2A663
+);
+
+@each $aniversario, $color in $nav {
+    .arte--#{$aniversario}{
+        background-color: $color;
+    }
+};
+
+
+$estilos:(
+fuente: italic,    
+alinecion: left,
+background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000)
+);
+/*Map get*/
+
+.mapanav{
+    background-image: map-get($estilos,  background-image );
+    font-family: map-get($estilos, fuente );
+};
+ /*Extend*/
+
+ .rl{
+    @extend .mapanav;
+    font-family: 'Aboreto', cursive;
+ };
+
+
+  /*Mixin*/
+   @mixin footer($width, $height){
+
+    width: $width;
+    position: $height;
+
+   }
+
+   .footer{
+     @include footer(50%, 200px )
+   }
