@@ -1,7 +1,6 @@
 header{
     padding-bottom: 75px;
     font-family: 'Aboreto', cursive;
-
     }
     nav{
         display: flex;
@@ -10,19 +9,14 @@ header{
         padding-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
-       
         justify-content: space-between;
         list-style-type: none;
-
-        
     }
     nav a {
         text-decoration: none;
         font-family: 'Aboreto', cursive;
-        
         text-align: center;
         font-size: 30px;
-        
     }
 /*---------------------------------------------------Carrousel-------------------------------------------------*/
 .carrousel{
@@ -32,7 +26,6 @@ header{
 /*---------------------------------------------------Carrousel-------------------------------------------------*/
 
 /*-------------------------------------------------Tipografias-------------------------------------------------*/
-
 .t1{
     font-size: 25px; 
     color: #011126;
@@ -42,33 +35,23 @@ header{
     position: fixed;
     left: 0px;
     right: 0px;
-    background-color: #044040;
-
-
+    margin-top: 0px;
     font-family: 'Aboreto', cursive;
-    
     text-align: center;
     font-size: 75px;
     color: #8C1F28;
     padding-bottom: 100px;
 }
-
 .t52{
     position: fixed;
     left: 0px;
     right: 0px;
-    background-color: #044040;
-
-
     font-family: 'Aboreto', cursive;
-    
-    
     text-align: center;
     font-size: 65px;
     color: #8C1F28;
     padding-bottom: 100px;
 }
-
 .p1{
     font-family: 'Edu QLD Beginner', cursive;
     color: wheat;
@@ -141,7 +124,6 @@ header{
 
 
 /*--------------------------------------------------Texto------------------------------------------------------*/
-
 p{
     margin-left: 10px;
     padding-bottom: 5px;
@@ -149,24 +131,24 @@ p{
 /*--------------------------------------------------Texto------------------------------------------------------*/
 
 /*---------------------------------------------------Media-------------------------------------------------------*/
-
 .Vsunrise{
     margin: 10px 10px 10px 10px;
 }
-
+.contenedorimg{
+    display: flex;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border-radius: 5px;
+    box-shadow: 8px 10px 15px 5px rgba(0, 0, 0, 0.50);
+}
 .art{
-    
-  
    border: 0px;
     padding-top: 90px;
     padding-bottom: 70px;
     margin-right: 15px;
     margin-left: 15px;
 }
-
 /*---------------------------------------------------Media-------------------------------------------------------*/
-
-
 .footer
 {
    
@@ -191,6 +173,7 @@ p{
     border-right: solid 10px #044040;
     border-left:solid 10px black;
     border-bottom: solid 10px #044040;
+    margin-top: 10px;
     padding-left: 0px;
     padding-right: 0px;
     position: inherit;

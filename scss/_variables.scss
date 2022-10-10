@@ -56,7 +56,6 @@ background-image: radial-gradient(circle, #ffffff, #b9b9b9, #777777, #3b3b3b, #0
     position: $height;
 
    }
-
    .footer{
      @include footer(50%, 200px )
    }
